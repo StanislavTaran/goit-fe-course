@@ -90,6 +90,7 @@ width: 100%;
     font-size: 30px;
     color: #666666;
     line-height: 1.2;
+    font-weight: 400;
 }
 .article_text{
 font-size: 14px; 
@@ -115,4 +116,10 @@ margin: 0px;
       cursor: pointer;
   }
    
-  
+  .More_than_just_a_music_festival_ {
+  font-size: 30px;
+  font-family: "Myriad Pro";
+  color: rgb(98, 98, 98);
+  line-height: 1.2;
+ 
+}
