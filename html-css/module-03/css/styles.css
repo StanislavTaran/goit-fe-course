@@ -51,7 +51,7 @@ body {
 
 .content_section{
     margin: 0 auto;
-    margin-bottom: 70px;
+    padding-bottom: 70px;
     font-size: 0;
 }
 .article {
