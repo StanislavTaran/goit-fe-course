@@ -48,6 +48,7 @@ body {
     font-size: 30px;
     line-height: 1.067;
     margin: 0;
+    color: rgb(102, 102, 102);
 }
 
 .logo_link::first-letter {
