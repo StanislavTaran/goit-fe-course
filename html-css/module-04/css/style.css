@@ -11,7 +11,11 @@ body {
     padding: 0;
     padding: 0 30px;
 }
-
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
 .logo,
 .navigation_list_item,
 .product_section_title,
@@ -26,29 +30,27 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-header {
-    padding: 0 30px;
-}
-
 /* Header */
-header {
-    margin-bottom: 64px;
-    padding-top: 36px;
-    height: 64px;
-}
-.navigation{
-    height: 64px;
+.header_top {
+    padding: 0 30px;
+    padding-top: 32px;
+    padding-bottom: 100px;
 }
 
 .logo {
-    font-weight: 300;
     float: left;
+    margin: 0;
+}
+.logo_link{
+    display: block;
+    text-decoration: none;
+    font-weight: 300;
     font-size: 30px;
     line-height: 1.067;
     margin: 0;
 }
 
-.logo::first-letter {
+.logo_link::first-letter {
     font-weight: 900;
     color: rgb(51, 204, 153);
 }
@@ -57,7 +59,7 @@ header {
     list-style: none;
     float: right;
     padding: 0;
-    padding-top: 7px;
+    padding-top: 10px;
     margin: 0;
 }
 
@@ -70,7 +72,7 @@ header {
 }
 
 
-.navigation_list_item a {
+.navigation_link{
     display: block;
     width: 100%;
     font-family: 'Open Sans', sans-serif;
@@ -81,15 +83,14 @@ header {
     color: rgb(0, 0, 0);
 }
 
-.navigation_list_item a:hover,
-.navigation_list_item a:focus {
+.navigation_link:hover,
+.navigation_link:focus {
     color: rgb(51, 204, 153);
 }
 
 /* Section product*/
 .product_section{
-    height: 832px;
-    padding-bottom: 100px;
+    padding-bottom: 106px;
 }
 .product_section_title {
     font-weight: 900;
@@ -98,6 +99,7 @@ header {
     line-height: 0.667;
     text-align: center;
     margin: 0;
+    margin-bottom: 90px;
     padding: 0;
 }
 
@@ -109,7 +111,6 @@ header {
     background: rgb(51, 204, 153);
     margin: 0 auto;
     margin-top: 32px;
-    margin-bottom: 30px;
 }
 /* product cards */
 .product_list {
@@ -138,7 +139,6 @@ header {
 }
 /* блок product_label создан для облегчения манипуляции с цветом при наведении*/
 .product_label{
-    height: 44px;
     background: rgb(51, 51, 51);
     padding-left: 15px;
 }
@@ -219,6 +219,7 @@ header {
     color: rgb(85, 82, 82);
     line-height: 1.444;
     margin: 0;
+    margin-bottom: 36px;
     padding: 0;
   }
   .news_unit_title::after{
@@ -228,7 +229,6 @@ header {
     width: 136px;
     background: rgb(51, 204, 153);
     margin-top: 10px;
-    margin-bottom: 24px;
 }
 
   .news_unit_text{
@@ -240,23 +240,23 @@ header {
     margin-bottom: 12px;
     padding: 0;
   }
-  .news_btn {
+  .news_link {
     display: block;
+    text-decoration: none;
     font-size: 16px;
     font-family: "OpenSans", sans-serif;
     color: rgb(255, 255, 255);
     line-height: 1.625;
     text-align: center;
     width: 160px;
-    height: 52px;
     background: rgb(102, 204, 153);
     margin: 0;
-    padding: 0;
+    padding: 13px 0;
     border: 0;
     border-radius: 5px;
   }
-  .news_btn:hover,
-  .news_btn:focus{
+  .news_link:hover,
+  .news_link:focus{
     background: rgb(102, 204, 204);
     cursor: pointer;
   }
