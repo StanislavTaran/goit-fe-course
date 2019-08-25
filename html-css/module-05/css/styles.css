@@ -349,7 +349,7 @@ body {
     background-image: url(../img/collection/hover/shuffle.svg);
 }
 .product__icon--clock::before{
-background-image: url(../img/collection/hover/like.svg);
+background-image: url(../img/collection/hover/clock.svg);
 }
 .product__icon--cart::before{
     background-image: url(../img/collection/hover/cart.svg);
