@@ -97,7 +97,6 @@ body {
     box-shadow: 0 0 2px rgba(0,0,0,.3);
     margin: 0 auto;
     position: relative;
-    margin-bottom: 100px;
 }
 
 .slider__ctrl{
@@ -179,6 +178,8 @@ body {
 /* Section New collection */
 .collection{
     padding-bottom: 100px;
+    padding-top: 100px;
+    background: rgb(233, 240, 253);
 }
 
 .collection__title {
