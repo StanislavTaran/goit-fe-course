@@ -7,7 +7,8 @@ body{
 .navigation__link,
 .services__name,
 .team__item-name,
-.footer__copyrights{
+.footer__copyrights,
+.footer__btn-subscribe{
     font-family: "Montserrat";
 }
 
@@ -366,23 +367,12 @@ body{
     margin: 0;
     padding: 0;
     background: var(--main__color--blue);
+    color: rgb(255, 255, 255);
+    font-weight: bold;
     transition: background 200ms linear;
     cursor: pointer;
 }
 .footer__btn-subscribe:hover{
     background: var(--effect__color--pink);
 }
-
-.Your_Email___ {
-    
-    font-family: "Roboto";
-    color: rgb(204, 204, 204);
-    font-style: italic;
-    line-height: 1.6;
-    text-align: left;
-    position: absolute;
-    left: 1192.703px;
-    top: 1623.5px;
-    z-index: 5;
-  }
   
