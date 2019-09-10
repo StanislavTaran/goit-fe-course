@@ -144,15 +144,15 @@ body {
     --color--sub-text: rgb(119, 119, 119);
 }
 
-.site-logo__name {
-    margin: 0;
-    padding: 0;
-}
-
 /* -------------------------------HEADER-------------------------------------- */
 .top-header {
     padding-top: 42px;
     padding-bottom: 74px;
+}
+
+.site-logo__name {
+    margin: 0;
+    padding: 0;
 }
 
 .site-navigation {
@@ -221,6 +221,7 @@ body {
     line-height: 1.2;
     text-align: center;
     margin: 0;
+    margin-bottom: 70px;
     padding: 0;
 }
 
@@ -231,10 +232,6 @@ body {
 
 .services__item {
     width: 290px;
-    height: 270px;
-    display: flex;
-    flex-flow: column;
-    justify-content: flex-end;
 }
 
 .services__item:not(:last-child) {
@@ -275,10 +272,8 @@ body {
     height: 74px;
     border: 2px solid var(--color--active);
     border-radius: 50%;
-    position: absolute;
-    left: 50%;
-    top: -60%;
-    transform: translateX(-50%);
+    margin: 0 auto;
+    margin-bottom: 20px;
 }
 
 .services__icon--basket::before {
@@ -319,7 +314,6 @@ body {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
-    margin-top: 76px;
 }
 
 .contact-form__element {
@@ -364,13 +358,16 @@ body {
     text-align: center;
     transition: all .2s linear;
 }
+
 .control--btn:hover,
-.control--btn:focus{
+.control--btn:focus {
     background: var(--color--sub-text);
 }
-.control--required:valid{
-    outline: 2px solid rgb(146, 236, 0)	;
+
+.control--required:valid {
+    outline: 2px solid rgb(146, 236, 0);
 }
-.control--required:invalid{
+
+.control--required:invalid {
     outline: 2px solid rgb(255, 0, 0);
 }
