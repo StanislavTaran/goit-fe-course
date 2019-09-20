@@ -5,28 +5,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/styles.css">
     <link rel="stylesheet" href="./css/adaptive.css">
     <title>Module 08</title>
 </head>
 
 <body>
-    <main class="container">
-        <section class="section promo">
-            <div class="promo__header">
-                <div class="promo__wrapper">
-                    <button href="#" class="promo__log button">Log in</button>
-                    <button href="#" class="promo__log promo__log--border button">Sign up</button>
-                </div>
+    <header class="page__header">
+        <div class="container">
+            <nav class="navigation">
+                <ul class="navigation__list">
+                    <li class="navigation__item"><button href="#" class="navigation__log button">Log in</button></li>
+                    <li class="navigation__item"><button href="#" class="navigation__log button">Sign up</button></li>
+                </ul>
                 <h1 class="promo__logo"><a href="#" class="promo__logo-link link">URLAUBSGLÜCK</a></h1>
-            </div>
-            <div class="promo__content">
+            </nav>
+            <section class="promo__content">
                 <h2 class="promo__title">Share your <span class="promo__title--wrapping">holiday dreams</span></h2>
                 <p class="promo__sub-title">And find the perfect partner to fullfill it</p>
                 <a href="#" class="promo__btn link">Find your holiday partner</a>
-            </div>
-        </section>
-        <section class="partner section">
+            </section>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+        <section class="partner">
             <h2 class="partner__title">Meet a partner for your best holiday</h2>
             <ul class="partner__list">
                 <li class="partner__item">
@@ -41,7 +45,8 @@
                         <img src="./img/mobile/partners/partner2.png" alt="person" class="partner__img">
                     </div>
                     <h3 class="partner__name">Lucas Marsha</h3>
-                    <p class="partner__info">I get my inspiration from nature and objects around me. I have a passion to colours, typography and skateboards.</p>
+                    <p class="partner__info">I get my inspiration from nature and objects around me. I have a passion to
+                        colours, typography and skateboards.</p>
                 </li>
                 <li class="partner__item">
                     <div class="partner__wrapper  partner__icon--cup">
@@ -60,6 +65,7 @@
             </ul>
             <button type="button" class="partner__more-btn">See other partners</button>
         </section>
+    </div>
     </main>
 </body>
 

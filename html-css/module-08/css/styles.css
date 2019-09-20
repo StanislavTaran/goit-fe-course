@@ -45,16 +45,22 @@
     border: 0;
     box-sizing: border-box;
 }
-
+.container{
+    box-sizing: border-box;
+    width: 100%;
+    min-width: 320px;
+    padding: 0 10px; 
+    margin: 0 auto;
+}
 /* ------------------------------------section promo------------------------------------------- */
-.promo{
+.page__header{
     background-image: url(../img/mobile/promo_bg_320_540.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     margin-bottom: 70px;
 }
-.promo__header{
+.navigation{
     box-sizing: border-box;
     background: transparent;
     height: 190px;
@@ -65,7 +71,18 @@
     padding-top: 20px;
     padding-bottom: 40px;
 }
-.promo__log{
+.navigation__list{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+.navigation__item,
+.navigation__list{
+    margin: 0;
+    padding: 0;
+}
+
+.navigation__log{
     color: rgb(255, 255, 255);
     background: transparent;
     width: 90px;
@@ -77,15 +94,9 @@
     line-height: 1.2;
     cursor: pointer;
 }
-.promo__log--border{
+.navigation__log:hover{
     border: 2px solid rgb(255, 255, 255);
     border-radius: 50px;
-}
-.promo__log:hover,
-.promo__log:focus{
-    border: 2px solid  rgb(255, 78, 80);
-    border-radius: 50px;
-
 }
 .promo__logo{
     margin: 0;
