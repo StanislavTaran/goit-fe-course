@@ -16,6 +16,7 @@
     .promo__sub-title{
         font-size: 24px;
         margin-bottom: 36px;
+        width: auto;
     }
     .promo__btn{
         font-weight: 700;
@@ -23,8 +24,7 @@
 
     .container{
         width: 100%;
-        min-width: 768px;
-        padding: 0 10px; 
+        max-width: 748px; 
         margin: 0 auto;
     }
     /* ---------------------------patner section------------------------------------ */
@@ -36,17 +36,22 @@
         flex-flow: row wrap;
         margin: 0 auto;
         margin-bottom: 36px;
+        width: 492px;
     }
     .partner__item{
         width: 236px;
     }
+    .partner__item--order2{
+        order: 2;
+    }
+    .partner__item--order4{
+        order: 4;
+    }
+    /* classes order can be deleted, it's  only for change the display order */
     .partner__title{
         margin-bottom: 36px;
     }
 }
-
-  
-
 
 
 @media screen and (min-width:960px){
@@ -54,8 +59,7 @@
     
     .container{
         width: 100%;
-        min-width: 960px;
-        padding: 0 10px; 
+        max-width: 940px;
         margin: 0 auto;
     }
     .page__header{
@@ -67,9 +71,7 @@
     }
      /* ---------------------------patner section------------------------------------ */
     .partner__list{
-        flex-direction: row;
         width: 942px;
-        height: auto;
     }
     .partner__item{
         width: 220px;

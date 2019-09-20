@@ -48,17 +48,16 @@
 .container{
     box-sizing: border-box;
     width: 100%;
-    min-width: 320px;
-    padding: 0 10px; 
+    max-width: 300px;
     margin: 0 auto;
 }
+/* wrap--restrict made for mobile version */
 /* ------------------------------------section promo------------------------------------------- */
 .page__header{
     background-image: url(../img/mobile/promo_bg_320_540.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    margin-bottom: 70px;
 }
 .navigation{
     box-sizing: border-box;
@@ -138,9 +137,10 @@
     line-height: 1.2;
     font-weight: 300;
     text-align: center;
-    margin: 0;
+    margin: 0 auto;
     margin-bottom: 18px;
     padding: 0;
+    width: 220px;
 }
 
 .promo__btn {
@@ -163,12 +163,14 @@
 }
 /*==================================================partner section======================================================== */
 .partner{
+    padding-top: 70px;
     padding-bottom: 56px;
 }
 .partner__item{
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
     padding-bottom: 30px;
+    width: 220px;
 }
 .partner__title{
     font-size: 22px;
