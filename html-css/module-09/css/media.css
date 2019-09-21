@@ -1,3 +1,14 @@
+@media screen and (min-width:576px){
+    .container{
+        width: 100%;
+        max-width: 556px; 
+        margin: 0 auto;
+    }
+    .page__header{
+        padding-bottom: 234px;
+        background-image: url(../img/tablet/promo_bg_768_700.jpg);
+     }
+}
 @media screen and (min-width:768px){
     .container{
         width: 100%;
@@ -5,10 +16,6 @@
         margin: 0 auto;
     }
     /* ---------------------------promo section------------------------------------ */
-    .page__header{
-        background-image: url(../img/tablet/promo_bg_768_700.jpg);
-        background-position: top;
-    }
     .wrap--reverse{
         flex-direction: row-reverse;
     }
@@ -19,7 +26,6 @@
     .navigation{
         height: auto;
         padding: 20px 0 146px 0;
-        flex-direction: row-reverse;
     }
     .promo__logo-link{
         text-align: start;
@@ -43,7 +49,6 @@
     .partner__list{
         display: flex;
         flex-flow: row wrap;
-        margin: 0 auto;
         margin-bottom: 36px;
     }
     .partner__item{
@@ -57,15 +62,15 @@
     }
     /* classes order can be deleted, it's  only for change the display order */
     .partner__title{
-        margin-bottom: 36px; */
+        margin-bottom: 36px;
     }
 }
 
 
-@media screen and (min-width:960px){
+@media screen and (min-width:992px){
     .container{
         width: 100%;
-        max-width: 940px;
+        max-width: 972px;
         margin: 0 auto;
     }
     /* ---------------------------promo section------------------------------------ */
@@ -77,13 +82,14 @@
         padding: 40px 250px 146px 250px;
     }
      /* ---------------------------patner section------------------------------------ */
-    .partner__list{
-        width: 942px;
-    }
-    .partner__item{
-        width: 220px;
-    }
     .partner{
         padding-bottom: 72px;
     }
-} */
+} 
+@media screen and (min-width:1200px){
+    .container{
+        width: 100%;
+        max-width: 1180px; 
+        margin: 0 auto;
+    }
+}

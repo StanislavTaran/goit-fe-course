@@ -175,7 +175,7 @@
      padding: 0;
  }
  .partner__list{
-     margin: 0;
+     margin: 0 auto;
      padding: 0;
      list-style: none;
  }
@@ -213,6 +213,7 @@
      display: block;
  }
  .partner__wrapper::before{
+     box-sizing: content-box;
      content: "";
      display: block;
      width: 30px;
@@ -221,7 +222,7 @@
      border-radius: 50%;
      background-size: 50%;
      position: absolute;
-     bottom: 18px;
+     bottom: 8px;
      right: 0;
  }
  .partner__icon--tv::before{
