@@ -1,4 +1,16 @@
+@media screen and (min-width:576px){
+    .container{
+    max-width: 546px;
+    max-width: 100%;
+    margin: 0 auto;
+    }
+}
 @media screen and (min-width:768px){
+    .container{
+        max-width: 738px;
+        max-width: 100%;
+        margin: 0 auto;
+        }
     /* ---------------------------promo section------------------------------------ */
     .page__header{
         background-image: url(../img/tablet/promo_bg_768_700.jpg);
@@ -54,12 +66,12 @@
 }
 
 
-@media screen and (min-width:960px){
+@media screen and (min-width:992px){
     /* ---------------------------promo section------------------------------------ */
     
     .container{
         width: 100%;
-        max-width: 940px;
+        max-width: 962px;
         margin: 0 auto;
     }
     .page__header{
@@ -78,5 +90,13 @@
     }
     .partner{
         padding-bottom: 72px;
+    }
+}
+
+@media screen and (min-width:1200px){
+    .container{
+        max-width: 1170px;
+        max-width: 100%;
+        margin: 0 auto;
     }
 }

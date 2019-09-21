@@ -1,7 +1,7 @@
 @media screen and (min-width:576px){
     .container{
         width: 100%;
-        max-width: 556px; 
+        max-width: 546px; 
         margin: 0 auto;
     }
     .page__header{
@@ -12,7 +12,7 @@
 @media screen and (min-width:768px){
     .container{
         width: 100%;
-        max-width: 748px; 
+        max-width: 738px; 
         margin: 0 auto;
     }
     /* ---------------------------promo section------------------------------------ */
@@ -70,7 +70,7 @@
 @media screen and (min-width:992px){
     .container{
         width: 100%;
-        max-width: 972px;
+        max-width: 962px;
         margin: 0 auto;
     }
     /* ---------------------------promo section------------------------------------ */
