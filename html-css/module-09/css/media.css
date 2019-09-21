@@ -1,0 +1,89 @@
+@media screen and (min-width:768px){
+    .container{
+        width: 100%;
+        max-width: 748px; 
+        margin: 0 auto;
+    }
+    /* ---------------------------promo section------------------------------------ */
+    .page__header{
+        background-image: url(../img/tablet/promo_bg_768_700.jpg);
+        background-position: top;
+    }
+    .wrap--reverse{
+        flex-direction: row-reverse;
+    }
+    .navigation__list{
+        justify-content:flex-end;
+        padding-bottom: 0;
+    }
+    .navigation{
+        height: auto;
+        padding: 20px 0 146px 0;
+        flex-direction: row-reverse;
+    }
+    .promo__logo-link{
+        text-align: start;
+    }
+    .promo__title{
+        font-size: 52px;
+        margin-bottom: 36px;
+    }
+    .promo__sub-title{
+        font-size: 24px;
+        margin-bottom: 36px;
+        width: auto;
+    }
+    .promo__btn{
+        font-weight: 700;
+    }
+    /* ---------------------------patner section------------------------------------ */
+    .partner{
+        padding-bottom: 40px;
+    }
+    .partner__list{
+        display: flex;
+        flex-flow: row wrap;
+        margin: 0 auto;
+        margin-bottom: 36px;
+    }
+    .partner__item{
+        width: auto;
+    }
+    .partner__item--order2{
+        order: 2;
+    }
+    .partner__item--order4{
+        order: 4;
+    }
+    /* classes order can be deleted, it's  only for change the display order */
+    .partner__title{
+        margin-bottom: 36px; */
+    }
+}
+
+
+@media screen and (min-width:960px){
+    .container{
+        width: 100%;
+        max-width: 940px;
+        margin: 0 auto;
+    }
+    /* ---------------------------promo section------------------------------------ */
+    .page__header{
+        background-image: url(../img/desktop/promo_bg_1440_700.jpg);
+        padding-bottom: 234px;
+     }
+    .promo__header{
+        padding: 40px 250px 146px 250px;
+    }
+     /* ---------------------------patner section------------------------------------ */
+    .partner__list{
+        width: 942px;
+    }
+    .partner__item{
+        width: 220px;
+    }
+    .partner{
+        padding-bottom: 72px;
+    }
+} */
