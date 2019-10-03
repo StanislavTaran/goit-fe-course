@@ -415,7 +415,13 @@ header,
 .team__title {
     margin-bottom: 50px;
 }
-
+.team__title::after {
+    content: "";
+    display: inline-block;
+    width: 60px;
+    height: 3px;
+    background: var(--main-color-pink);
+}
 .team__title--main {
     display: block;
     font-weight: 700;
