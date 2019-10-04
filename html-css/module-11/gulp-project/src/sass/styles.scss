@@ -5,7 +5,6 @@
 @import 'fonts';
 @import 'helpers/variables';
 @import 'helpers/placeholders';
-@import 'helpers/mixins.scss';
 @import 'normalize';
 @import 'base.scss';
 //Components
@@ -19,13 +18,8 @@
 @import 'components/services-title';
 @import 'components/services-list';
 @import 'components/services-items';
-
 @import 'components/section-team';
 @import 'components/team-title';
 @import 'components/team-list';
 @import 'components/team-item';
-
-
 @import 'components/footer';
-
-
