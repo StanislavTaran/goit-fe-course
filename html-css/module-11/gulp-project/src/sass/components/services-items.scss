@@ -1,0 +1,80 @@
+.services__item {
+    width: 300px;
+    margin-left: 90px;
+    position: relative;
+
+        &::before {
+        content: "";
+        display: inline-block;
+        width: 80px;
+        height: 30px;
+        margin: 0 auto;
+        position: absolute;
+        top: 0;
+        left: -80px;
+    }
+        &:not(:nth-last-child(-n+3)) {
+        margin-bottom: 100px;
+    }
+    
+}
+
+.services__item--alarm::before {
+    background: url(../images/serv/alarm.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.services__item--line::before {
+    background: url(../images/serv/design.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.services__item--pc::before {
+    background: url(../images/serv/pc.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.services__item--book::before {
+    background: url(../images/serv/book.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.services__item--home::before {
+    background: url(../images/serv/house.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.services__item--picture::before {
+    background: url(../images/serv/digital.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+
+.services__name {
+    margin-bottom: 18px;
+    font-size: 14px;
+    @extend %marpad-reset;
+    font-family: $main-font-stack;
+    color: $basic-text-color;
+}
+
+.services__description {
+    font-size: 15px;
+    line-height: 1.6;
+    text-align: left;
+    @extend %marpad-reset;
+    font-family: $secondary-font-stack;
+    color: $secondary-text-color;
+}

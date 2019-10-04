@@ -1,0 +1,35 @@
+.team__title {
+    margin-bottom: 50px;
+    font-family:  $title-font-stack;
+    @extend %marpad-reset;
+    @extend %txt-center;
+    color: $basic-text-color;
+}
+.team__title::after {
+    content: "";
+    display: inline-block;
+    width: 60px;
+    height: 3px;
+    background: $main-color-pink;
+}
+.team__title--main {
+    display: block;
+    font-weight: 700;
+    padding-top: 18px;
+    font-family:  $main-font-stack;
+    @extend %marpad-reset;
+    @extend %txt-center;
+    color: $basic-text-color;
+}
+
+.team__slogan {
+    max-width: 980px;
+    font-size: 15px;
+    line-height: 1.6;
+    margin: 0 auto;
+    margin-bottom: 80px;
+    padding: 0;
+    font-family:  $secondary-font-stack;
+    color: $secondary-text-color;
+    @extend %txt-center;
+}

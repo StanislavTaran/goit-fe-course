@@ -1,0 +1,10 @@
+.logo{
+    @extend %marpad-reset;
+    font-family: $main-font-stack;
+}
+.logo__link {
+    font-weight: 700;
+    font-size: 30px;
+    @extend %link;
+    color: $primary-text-color;
+}

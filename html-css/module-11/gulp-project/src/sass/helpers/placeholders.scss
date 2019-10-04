@@ -1,0 +1,32 @@
+%marpad-reset{
+    margin: 0;
+    padding: 0;
+}
+%link{
+    @extend %marpad-reset;
+    display: block;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+%btn {
+    display: block;
+    border: 0;
+    box-sizing: border-box;
+}
+%list{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+%flex-row-between{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+%txt-center{
+    text-align: center;
+}
+
+%transition{
+    transition: .2s linear;
+}

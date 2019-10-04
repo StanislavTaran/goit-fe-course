@@ -1,0 +1,51 @@
+.footer-bottom {
+    height: 60px;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-top: 1px solid rgb(204, 204, 204);
+    ;
+}
+
+.footer__copyrights {
+    font-size: 14px;
+    color: $basic-text-color;
+    line-height: 1.2;
+    font-family: $main-font-stack;
+}
+
+.footer__copyrights-link {
+    text-decoration: none;
+    color: $main-color-pink;
+}
+
+.footer__form {
+    display: flex;
+    height: 40px;
+}
+
+.footer__input-mail {
+    width: 230px;
+    color: $secondary-text-color;
+    font-size: 15px;
+    font-family:  $secondary-font-stack;
+}
+
+.footer__btn-subscribe {
+    display: block;
+    border: none;
+    height: 100%;
+    width: 150px;
+    background: $main-color-blue;
+    color: $primary-text-color;
+    font-weight: bold;
+    transition: background 200ms linear;
+    cursor: pointer;
+
+    &:hover {
+        @extend %marpad-reset;
+        background: $main-color-pink;
+    }
+}
+

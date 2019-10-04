@@ -1,0 +1,45 @@
+.banner__promo {
+    padding-top: 150px;
+    padding-bottom: 226px;
+}
+.banner__title{
+    @extend %marpad-reset;
+    @extend %txt-center;
+    color: $primary-text-color;
+    font-size: 72px;
+    margin-bottom: 30px;
+    font-family: $title-font-stack;
+}
+
+.banner__sub-title {
+    font-size: 150px;
+    font-weight: 700;
+    margin-bottom: 134px;
+    @extend %marpad-reset;
+    @extend %txt-center;
+    color: $primary-text-color;
+    font-family:  $main-font-stack;
+}
+
+.banner__btn {
+    width: 160px;
+    height: 40px;
+    border: 3px solid $primary-text-color;
+    @extend %link;
+    @extend %txt-center;
+    margin: 0 auto;
+    color: $primary-text-color;
+    @extend %transition;
+
+      &:hover {
+            background-color: $main-color-pink;
+     }
+}
+
+
+.banner__btn-txt {
+    font-size: 14px;
+    line-height: 40px;
+    font-weight: 700;
+    font-family:  $main-font-stack;
+}

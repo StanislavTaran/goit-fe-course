@@ -1,0 +1,6 @@
+.team__list {
+    @extend %list;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
